@@ -1,0 +1,31 @@
+.cont-flexxx {
+  font-size: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 5% 5%;
+
+}
+
+.counter p {
+  font-size: 20px;
+}
+
+/* .counter{
+margin-right: 30px;
+  } */
+
+
+@media (max-width: 1000px) {
+  .cont-flexxx {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .counter p {
+    padding-bottom: 25px;
+  }
+}

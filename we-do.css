@@ -1,0 +1,52 @@
+.wedo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.what-we-do{
+    margin: 4% 10% ;
+
+}
+.wedo-main p{
+   
+    font-size: 20px;
+}
+.wedo-sec1{
+    margin-top: 68px;
+    display: flex;
+    width: 245px;
+}
+.wedo-sec1 i{
+    margin-right: 6px;
+}
+.wedo-sec1 h4{
+    margin-bottom: 5px;
+}
+.h4-p-wedo{
+    margin-left: 10px;
+}
+.wedo-sec1 p{
+    font-size: 13px;
+}
+.img-wedo img{
+    height: 30rem;
+    
+}
+.we-do-main-sec-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+   
+}
+@media (max-width: 800px) {
+    .img-wedo img{
+       margin-top: 40px;
+        
+    }
+    .what-we-do{
+        margin: 15% 10% ;
+    
+    }
+}
